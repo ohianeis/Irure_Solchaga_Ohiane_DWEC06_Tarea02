@@ -28,7 +28,7 @@ const Plantilla = () => {
 
   //evento que maneja el borrado del personal de plantilla, se le pasa como prop a Trabajador.jsx
   const handleBorrar = (index) => {
-    console.log(index);
+   
     //uso de propagacion para desestructurar objeto, obtener así array antes del index indicado mas array despues index indicado
     const nuevoArray = [
       ...trabajadores.slice(0, index),
